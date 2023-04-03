@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple React template using TypeScript and Webpack ready for development",
   "scripts": {
-    "start": "webpack serve --config webpack.dev.ts --no-client-overlay",
+    "start": "webpack serve --config webpack.dev.ts",
     "build": "webpack --config webpack.prod.ts",
     "prettify": "prettier --write \"src/**/*.{ts,tsx}\""
   },
